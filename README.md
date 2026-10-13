@@ -21,7 +21,10 @@
 * **EDA 设计工具**：嘉立创 EDA
 
 ### 2. 硬件接线与信号链路
-```text
+```text<img width="1112" height="527" alt="image" src="https://github.com/user-attachments/assets/2b49b617-fbd1-4dd2-9993-ea0f1d0c5256" />
+<img width="650" height="524" alt="image" src="https://github.com/user-attachments/assets/26e4ffbc-938d-4f5e-a137-825665c9467c" />
+
+
 [ 0-10V 输入信号 ] 
        │
        ▼
