@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"voltagemeter\startup_stm32f103xb.o"
+"voltagemeter\main.o"
+"voltagemeter\stm32f1xx_it.o"
+"voltagemeter\stm32f1xx_hal_msp.o"
+"voltagemeter\stm32f1xx_hal_gpio_ex.o"
+"voltagemeter\stm32f1xx_hal_adc.o"
+"voltagemeter\stm32f1xx_hal_adc_ex.o"
+"voltagemeter\stm32f1xx_hal.o"
+"voltagemeter\stm32f1xx_hal_rcc.o"
+"voltagemeter\stm32f1xx_hal_rcc_ex.o"
+"voltagemeter\stm32f1xx_hal_gpio.o"
+"voltagemeter\stm32f1xx_hal_dma.o"
+"voltagemeter\stm32f1xx_hal_cortex.o"
+"voltagemeter\stm32f1xx_hal_pwr.o"
+"voltagemeter\stm32f1xx_hal_flash.o"
+"voltagemeter\stm32f1xx_hal_flash_ex.o"
+"voltagemeter\stm32f1xx_hal_exti.o"
+"voltagemeter\stm32f1xx_hal_uart.o"
+"voltagemeter\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "VoltageMeter\VoltageMeter.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "VoltageMeter.map" -o VoltageMeter\VoltageMeter.axf
